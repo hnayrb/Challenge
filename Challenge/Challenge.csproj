@@ -54,11 +54,15 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QueensProblem\Base\BaseQueensProblem.cs" />
+    <Compile Include="QueensProblem\IQueensProblem.cs" />
+    <Compile Include="QueensProblem\QueensProblemTests.cs" />
     <Compile Include="StringSearch\Alina\Alina_Search_Hard.cs" />
     <Compile Include="StringSearch\Basic\BasicSearch.cs" />
     <Compile Include="StringSearch\Eric\BTree.cs" />
     <Compile Include="StringSearch\Eric\BTreeNode.cs" />
     <Compile Include="StringSearch\Eric\StringSearch.cs" />
+    <Compile Include="StringSearch\Eric\StringSearch3.cs" />
     <Compile Include="StringSearch\Eric\StringSearch2.cs" />
     <Compile Include="StringSearch\ISearch.cs" />
     <Compile Include="StringSearch\James\JamesSearch.cs" />
@@ -69,7 +73,9 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="StringSearch\Wes\" />
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
