@@ -9,7 +9,9 @@ namespace Challenge.StringSearch
     [TestFixture(typeof(Alina.Alina_Search_Hard))]
     [TestFixture(typeof(Eric.StringSearch))]
     [TestFixture(typeof(Eric.StringSearch2))]
+    [TestFixture(typeof(Eric.StringSearch3))]
     [TestFixture(typeof(Van.VT_Search))]
+    [TestFixture(typeof(Wes.Wes_Search))]
     [Category("StringSearch")]
     public class StringSearchTests
     {

@@ -68,14 +68,13 @@
     <Compile Include="StringSearch\James\JamesSearch.cs" />
     <Compile Include="StringSearch\StringSearchTests.cs" />
     <Compile Include="StringSearch\Van\VT_Search.cs" />
+    <Compile Include="StringSearch\Wes\Wes_Search.cs" />
     <Compile Include="TestUtility.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="StringSearch\Wes\" />
-  </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
